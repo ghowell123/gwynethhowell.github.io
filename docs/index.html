@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 
 <head>
+  <meta charset="UTF-8">
+  
 <style>
 .name {
-  color: lightpink
+  color: #33272a
 }
 
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #faeee7;
+
+}
 .banner-image {
     width: 150px;
     height: 150px;
     border-radius: 150px;
+  
   }
 
 .body {
+    background-color: #faeee7;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -24,14 +35,19 @@
 
 .thumbnails {
   width: 50px;
-  length: 50px;
+  height: 50px;
   border-radius: 50px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
 
-<h1 class="name"> Gwyneth Howell </h1>
-
-<div class = "banner">
+<div class="header">
+<h1 class="name";> Gwyneth Howell</h1>
 <img src="photo.jpg" alt="this is a photo of a beach" class = "banner-image">
 </div>
 
@@ -39,7 +55,9 @@
 
 
 <body>
-<p>links:</p> 
+<div class="body">
+  <div class="items">
+
 
 <div class="websites">
   <p>
@@ -64,4 +82,7 @@
 
 
 </div>
+</div>
+</div>
+
 </body>
